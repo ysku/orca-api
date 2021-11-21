@@ -18,6 +18,7 @@
   "devDependencies": {
     "@jest/types": "^27.2.5",
     "@types/jest": "^27.0.3",
+    "@types/uuid": "^8.3.3",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
@@ -35,5 +36,9 @@
       "npm run lint:fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "uuid": "^8.3.2"
   }
 }
